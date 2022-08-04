@@ -1,0 +1,19 @@
+/* style reset */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  /* border: 1px solid red; */
+}
+
+html {
+  // This defines what 1rem is doing
+  font-size: 62.5%;
+  /* used to set all font-size to REM 16px is default*/
+}
+
+body {
+  box-sizing: border-box;
+}
